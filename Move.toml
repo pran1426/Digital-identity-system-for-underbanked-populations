@@ -1,0 +1,15 @@
+[package]
+name = "Digital_identity_system_for_underbanked_populations"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Digitalidentitysystemforunderbankedpopulations='0xb5f35b8e3a755bc4017971e2147e5915fb30b68f71c61e82212b64e39058c828'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
